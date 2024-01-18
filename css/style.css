@@ -1,3 +1,4 @@
+/* bg-colors */
 .my_color-navy {
     background-color: #2C3E50;
 }
@@ -8,4 +9,9 @@
 
 .my_color-green {
     background-color: #1ABC9C;
+}
+
+/* text colors */
+.my_text-navy {
+    color: #2C3E50;
 }
