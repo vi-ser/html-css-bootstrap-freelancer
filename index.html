@@ -12,11 +12,16 @@
 
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm border-bottom border-body my-color-navy" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-sm border-bottom border-body my_color-navy" data-bs-theme="dark">
         <div class="container p-2">
             <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,45 +46,161 @@
     </nav>
     <!-- fine navbar -->
 
-    <!-- hero -->
-    <section id="hero" style="height: 580px;" class="d-inline-block my-color-green  w-100">
-        <div class="container">
+    <!-- jumbo -->
+    <div id="jumbo" class="my_color-green text-light text-center py-5">
+        <div class="container text-uppercase">
+            <h1>Start Bootstrap</h1>
+
+            <div class="col-3 mx-auto">
+                <div class="separator row align-items-center">
+                    <div class="col-5">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                    <div class="col-2">
+                        <i class="fa-solid fa-star text-light"></i>
+
+                    </div>
+                    <div class="col-5">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                </div>
+            </div>
+            <p>
+                Graphic Artist - Web Designer - Illustrator
+            </p>
+
         </div>
-    </section>
-    <!-- fine hero -->
+    </div>
+    <!-- fine jumbo -->
 
     <!-- sezione portfolio -->
-    <section id="portfolio">
-        <div class="container text-center py-5">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col bg-primary rounded-3 p-5">project</div>
-                <div class="col bg-primary rounded-3 p-5">project</div>
-                <div class="col bg-primary rounded-3 p-5">project</div>
-                <div class="col bg-primary rounded-3 p-5">project</div>
-                <div class="col bg-primary rounded-3 p-5">project</div>
-                <div class="col bg-primary rounded-3 p-5">project</div>
+    <div id="portfolio">
+        <div class="container text-center py-5 text-uppercase">
+            <h1>Portfolio</h1>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col my_color-green p-2">
+                    <div class="my_card"></div>
+                </div>
+                <div class="col my_color-green p-2">
+                    <div class="my_card"></div>
+                </div>
+                <div class="col my_color-green p-2">
+                    <div class="my_card"></div>
+                </div>
+                <div class="col my_color-green p-2">
+                    <div class="my_card"></div>
+                </div>
+                <div class="col my_color-green p-2">
+                    <div class="my_card"></div>
+                </div>
+                <div class="col my_color-green p-2">
+                    <div class="my_card"></div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- fine sezione portfolio -->
 
     <!-- sezione about -->
-    <section id="about" class="my-color-green">
-        <div class="container py-5">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque temporibus
-                    porro quasi rerum iste, consequuntur minus deleniti magni similique et suscipit corrupti optio amet
-                    inventore, tenetur est mollitia cum iure.</div>
-                <div class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, vero
-                    consequuntur, quisquam quos natus, doloribus dolor ullam deleniti laborum velit architecto
-                    perferendis ducimus obcaecati eligendi necessitatibus officiis repellat optio sequi!</div>
+
+    <div id="about" class="my_color-green text-white py-5">
+        <div class="container d-flex flex-column align-items-center">
+
+            <h1 class="text-center text-uppercase">About</h1>
+            <div class="struttura-titolo col-3 mx-auto mb-3">
+                <div class="separator row align-items-center">
+                    <div class="col-5">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                    <div class="col-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-5">
+                        <hr class="border-2 opacity-100 rounded">
+                    </div>
+                </div>
             </div>
+
+            <div class="col-9">
+                <div class="row row-cols-1 row-cols-md-2 mb-1">
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius voluptatibus temporibus.
+                            Nihil a quis veniam esse, eaque provident molestiae recusandae enim nulla excepturi et
+                            mollitia exercitationem aut nisi. Amet!
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius voluptatibus temporibus.
+                            Nihil a quis veniam esse, eaque provident molestiae recusandae enim nulla excepturi et
+                            mollitia exercitationem aut nisi. Amet!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i>
+                    Download</button>
+            </div>
+
         </div>
-    </section>
+    </div>
     <!-- fine sezione about -->
 
+    <!-- form -->
+    <div id="contact-me" class="py-5">
+        <div class="container d-flex flex-column align-items-center ">
+            <div class="col-9">
+                <h1 class="text-center text-uppercase">Contact Me</h1>
+                <div class="struttura-titolo col-3 mx-auto mb-3">
+                    <div class="separator row align-items-center">
+                        <div class="col-5">
+                            <hr class="border-2 opacity-100 rounded">
+                        </div>
+                        <div class="col-2">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="col-5">
+                            <hr class="border-2 opacity-100 rounded">
+                        </div>
+                    </div>
+                </div>
+
+
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp"
+                            placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                            placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <input type="number" class="form-control" id="inputPhoneNumber" aria-describedby="emailHelp"
+                            placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="inputMessage" rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn my_color-green text-white">Send</button>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- fine form -->
+
     <!-- footer -->
-    <footer class="my-color-lightnavy">
+    <footer class="my_color-lightnavy">
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="text-light text-center">
@@ -96,7 +217,7 @@
     </footer>
     <!-- fine footer -->
 
-    <div id="copyright" class="py-5 my-color-navy text-center text-light">
+    <div id="copyright" class="py-5 my_color-navy text-center text-light">
         Copyright© Your Website 2019
     </div>
 
