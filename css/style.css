@@ -15,3 +15,9 @@
 .my_text-navy {
     color: #2C3E50;
 }
+
+/* colore del testo placeholder del form */
+.form-control::placeholder {
+    color: #2C3E50;
+    opacity: 1;
+}
