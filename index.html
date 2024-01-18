@@ -21,7 +21,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm border-bottom border-body my_color-navy" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-sm border-bottom border-body my_color-navy fixed-top " data-bs-theme="dark">
         <div class="container d-flex justify-content-between p-2">
             <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,7 +47,7 @@
     <!-- fine navbar -->
 
     <!-- jumbo -->
-    <div id="jumbo" class="my_color-green text-light text-center py-5">
+    <div id="jumbo" class="my_color-green text-light text-center py-5 mt-5">
         <div class="container text-uppercase">
             <div class="row d-flex justify-content-center ">
                 <img src="./img/avatar.svg" class="col-6 col-md-2 mb-4" alt="">
@@ -234,14 +234,28 @@
     <footer class="my_color-lightnavy">
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="text-light text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="d-flex flex-column text-white text-center">
+                    <span class="text-uppercase fs-5">Location</span>
+                    <span>2215 John Daniel Drive Clark, MO 54243</span>
                 </div>
-                <div class="text-light text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="col d-flex flex-column text-white text-center">
+                    <span class="text-uppercase mb-2 fs-5">Around the web</span>
+                    <div class="d-flex justify-content-center gap-3">
+                        <button type="button" class="btn btn-outline-light btn-circle rounded-circle"><i
+                                class="fa-brands fa-facebook-f"></i></button>
+                        <button type="button" class="btn btn-outline-light btn-circle rounded-circle"><i
+                                class="fa-brands fa-google-plus-g"></i></button>
+                        <button type="button" class="btn btn-outline-light btn-circle rounded-circle"><i
+                                class="fa-brands fa-x-twitter"></i></button>
+                        <button type="button" class="btn btn-outline-light btn-circle rounded-circle"><i
+                                class="fa-brands fa-linkedin-in"></i></button>
+                    </div>
                 </div>
-                <div class="text-light text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="col d-flex flex-column text-white text-center">
+                    <span class="text-uppercase fs-5">About freelancer</span>
+                    <span>Freelance is a free to use, open source Bootstrap theme created by <a
+                            class="my_text-green text-decoration-none" href="">Start Bootstrap</a>.
+                    </span>
                 </div>
             </div>
         </div>

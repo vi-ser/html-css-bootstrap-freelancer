@@ -16,8 +16,18 @@
     color: #2C3E50;
 }
 
+.my_text-green {
+    color: #1ABC9C;
+}
+
 /* colore del testo placeholder del form */
 .form-control::placeholder {
     color: #2C3E50;
     opacity: 1;
+}
+
+/* button perfettamente rotondi */
+.btn-circle {
+    width: 40px;
+    height: 40px;
 }
